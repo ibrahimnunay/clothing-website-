@@ -1,5 +1,4 @@
-
-   ul {
+  ul {
   
   margin: 0;
   padding: 0;
@@ -24,12 +23,10 @@ li a:hover {
 }
 body {background-color:wheat;}
 style>
-<style>
-        /* CSS to style the buttons */
-        #media button {
+       style>
+      #media button {
             width: 150px;
-            height: 50px;
-        }
+            height: 50px; }
         #cart-button {
             display: none; 
             position: fixed; 
@@ -45,4 +42,6 @@ style>
             font-size: 20px; 
         }
 
-</style>
+
+
+  
