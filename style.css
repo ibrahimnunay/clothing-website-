@@ -24,3 +24,25 @@ li a:hover {
 }
 body {background-color:wheat;}
 style>
+<style>
+        /* CSS to style the buttons */
+        #media button {
+            width: 150px;
+            height: 50px;
+        }
+        #cart-button {
+            display: none; 
+            position: fixed; 
+            top: 10px; 
+            right: 10px; 
+            width: 50px;
+            height: 50px;
+            background-color: #fff; 
+            border: 1px solid #000; 
+            border-radius: 50%; 
+            text-align: center; 
+            line-height: 50px; 
+            font-size: 20px; 
+        }
+
+</style>
