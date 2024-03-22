@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop</title>
-    <link rel="stylesheet" href="style.css"> <!--Link to your CSS file -->
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
     <header>
@@ -11,7 +11,7 @@
         <nav>
             <ul>
                 <li><a href="home.html">Home</a></li>
-                <li class="active"><a href="">Shop</a></li>
+                <li class="active"><a href="shop.html">Shop</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -24,54 +24,77 @@
             <img src="https://i.pinimg.com/474x/29/37/9a/29379aba2872e87a658792624c22e823.jpg"alt="Product 1" "height="300" width="220">
             <h3>Modest Dress</h3>
             <p>$49.99</p>
-            <button>Add to Cart</button>
-        </div>
+            <div id="media">
+   <button onclick="myFunction()">Add to Cart</button>
+
+    <button id="cart-button">🛒 <span id="cart-counter">0</span></button>
+  <script>
+    let counter = 0; 
+    
+    function incrementCounter() {
+      counter++; // Increment the counter
+      document.getElementById('cart-counter').innerText = counter; 
+      document.getElementById('cart-button').style.display = 'block'; 
+    }
+    
+  </script>
+
         <div class="product">
-            <img src="https://i.pinimg.com/474x/79/5c/a4/795ca4fa1485bd779ae4b9b3f3804b43.jpg" alt="Product 2 "height="300" width="220"" >
-            <h3>Stylish Hijab</h3>
+            <img src="https://i.pinimg.com/474x/79/5c/a4/795ca4fa1485bd779ae4b9b3f3804b43.jpg" alt="Product 2 "height="300" width="220" />
+          <h3>Stylish Hijab</h3>
             <p>$19.99</p>
-            <button>Add to Cart</button>
-        </div>
+          <div  id="media">
+    <button onclick="myFunction()">Add to Cart</button>
+    <button id="cart-button">🛒 <span id="cart-counter">0</span></button>
+ 
+        
     </section>
 
     <section id="all-products">
         <h2>All Products</h2>
         <div class="product">
             <img src="https://i.pinimg.com/736x/e2/e9/0d/e2e90d071137d45fdef78128d5b01acc.jpg"
-"alt="Product 3 "height="300" width="220"">
+"alt="Product 3 "height="300" width="220""/>
             <h3>Flowy Blouse</h3>
             <p>$39.99</p>
-            <button>Add to Cart</button>
+            <button onclick="myFunction()">Add to Cart</button>
         </div>
+        </section>
         <div class="product">
             <img src="https://i.pinimg.com/474x/71/5e/75/715e758561d1643f84872bd9e068d946.jpg" alt="Product 4" "height="300" width="220">
             <h3>Modest Skirt</h3>
             <p>$29.99</p>
-            <button>Add to Cart</button>
-        </div>
+      </div>
+      <button onclick="myFunction()">Add to Cart</button>
+      
     </section>
+    <section>
+        <div class="product">
+            <img src="https://i.pinimg.com/474x/68/ee/75/68ee75f5e96659fa040317065661ee94.jpg" alt="Bottom 1" "height="300" width="220">
+            <h3>Modest Skirt</h3>
+            <p>$49.99</p>
+        </div>
+        <button onclick="myFunction()">Add to Cart</button>
+    </section>
+
+
+<script>
+ 
+    let counter = 0; 
+    
+    function incrementCounter() {
+      counter++; // Increment the counter
+      document.getElementById('cart-counter').innerText = counter; 
+      document.getElementById('cart-button').style.display = 'block'; 
+    }
+
+function myFunction() {
+  alert("add it to the cart!");
+}
+</script>
 
     <footer>
         
     </footer>
 </body>
 </html>
-
-    
-        
-        
-        <div class="product">
-            <img src="https://i.pinimg.com/474x/68/ee/75/68ee75f5e96659fa040317065661ee94.jpg" alt="Bottom 1" "height="300" width="220">
-            <h3>Modest Skirt</h3>
-            <p>$49.99</p>
-            <button>Add to Cart</button>
-        </div>
-        <div class="product">
-           
-        </div>
-    </section>
-
-    <footer>
-        
-    </footer>
-</body>
